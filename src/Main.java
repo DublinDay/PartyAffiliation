@@ -11,8 +11,8 @@ public class Main {//Class partyAffiliation
             System.out.println("You get a Republican Elephant!");//output "You get a Republican Elephant"
         } else if (politicParty.equalsIgnoreCase("I")) {//else if userParty==Independent
             System.out.println("You get a Independent Person!");//output "You get a Independent Man"
-        } else{//else
+        } else {//else
             System.out.println("You are apart of another party!");//output "You are apart of another party!"
-        //endIf
+        }//endIf
     }//return
 }//endClass
